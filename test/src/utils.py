@@ -1,10 +1,10 @@
 import os
 import sys
 from datetime import datetime
-# Missing import: from typing import List - AGENT SHOULD ADD THIS
+from typing import List
 
-def format_list(items: List[str]) -> str:  # Uses List but not imported
-    retur  n ", ".join(items)
+def format_list(items: List[str]) -> str:
+    return ", ".join(items)
 
 def get_timestamp():
     return datetime.now().isoformat()

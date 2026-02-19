@@ -1,5 +1,5 @@
 
-f rom src.utils import format_list, get_timestamp
+from src.utils import format_list, get_timestamp
 
 def test_format_list():
     assert format_list(["a", "b", "c"]) == "a, b, c"
